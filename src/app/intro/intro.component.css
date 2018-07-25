@@ -117,7 +117,16 @@ from {
     transform: translate3d(0, -100%, 0);
   }
 }
-
+.mobHead{
+  text-align:center; width:200px; margin:0 auto; color:#000; font-size:1.4em; padding-bottom:20px; display: none;
+}
+.mascot{
+  background-image: none;
+  height: none;
+  background-size: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 @media only screen and (max-width: 500px) {
 
   .name-txt-center div img{ width:120px; margin-top:80px;} 
@@ -128,5 +137,12 @@ from {
     color: #f0c93e;
     font-weight: bold;
   }
-   
+   .mobHead{ display: block}
+   .mascot{
+    background-image: url('../../assets/images/mascot.png');
+  height: 250px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
 }

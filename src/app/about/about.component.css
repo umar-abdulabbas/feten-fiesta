@@ -4,7 +4,7 @@
    }
    .aboutLayout.open{
        animation: fadeInUp .5s ease; 
-       
+       height: 100vh;
    }
     .aboutHeader{
          font-family: 'Pontano Sans', sans-serif;
@@ -60,7 +60,9 @@ from {
     opacity: 1;
   }
 }
-
+.table {
+  width:500px; margin:0 auto;
+}
    @media only screen and (max-width: 500px) {
     .aboutLayout{ height: auto;}
    .aboutHeader{
@@ -78,7 +80,9 @@ from {
     }
     .row{ display:block; padding-top: 0px;}
   
-    
+    .table {
+      width:100%; 
+    }
     
     .para-head{color:#29afe2!important; font-size:18px; font-weight:600;}
     .bdr-left{ margin: 0 auto; text-align: center; margin: 0 auto; width: 100%;}

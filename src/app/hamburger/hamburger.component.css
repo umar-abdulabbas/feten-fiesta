@@ -73,7 +73,7 @@ h1 {
   background: #FFF;
 }
 .button_container span {
-  background: #29afe2;
+  background: #36204a;
   border: none;
   height: 5px;
   width: 100%;
@@ -92,7 +92,7 @@ h1 {
 
 .overlay {
   position: fixed;
-  background: #29afe2;
+  background: #36204a;
   top: 0;
   left: 0;
   width: 100%;

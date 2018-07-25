@@ -1,12 +1,17 @@
 <div [ngClass]="{'introLayout':'true', 'open':'true'}" >
 	<div style=" padding-top:20%;">
-			<div class="name-txt-center">
+			<div class="mobHead">
+				The Big Mammoth Grand Extravagant Day for TCS family is here !!!
+			</div>
+			<div class="mascot">
+			<div class="name-txt-center" >
 				 <div [ngClass]="{'name-left':'true', 'open':open}" class="text-color">Fete n’ </div>
 				<div [ngClass]="{'name-right':'true','open':open}" class="text-color">&nbsp;Fiesta</div>
 				<div class="clear" ></div> 
 			</div>
+			</div>
 			<div style="height:50px">&nbsp;</div>
-			<div style="text-align:center; color:#FFF; font-weight:bold">Go to Agenda</div>
+			<div style="text-align:center; color:#FFF; font-weight:bold; padding-bottom:10px">Go to Agenda</div>
 			<div [ngClass]="{'arrowbtn':'true', 'open':open}"  (click)="nextComponent()"><span class="fa fa-angle-double-down"></span></div>	
 			
 	  </div>
