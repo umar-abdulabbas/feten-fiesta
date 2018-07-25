@@ -1,11 +1,11 @@
 <div  [ngClass]="{'aboutLayout':'true', 'open':'true'}" >
     <h1 class="aboutHeader">Event Agenda "</h1>
 	<div style="width:500px; margin:0 auto">
-		<table style="color:black" border="1">
+		<table id="customers">
 			<tr>
-				<td>Event Name</td>
-				<td>Start Time</td>
-				<td>End Time</td>
+				<th>Event Name</th>
+				<th>Start Time</th>
+				<th>End Time</th>
 			</tr>
 			<tr>
 				<td>Greeting Fête n’ Fiesta 2018 <br/>Enjoy the welcome drink, Collect your ribbon and find your team  </td>
@@ -35,8 +35,10 @@
 		</table>
 
 	</div>
-  
+
 <div class="clear"></div>
+<div style="height:50px">&nbsp;</div>
+			<div style="text-align:center; color:#000; font-weight:bold">How to get there</div>
 	<div class="arrowbtn" (click)="nextComponent()"><span class="fa fa-angle-double-down"></span></div>
 <div class="clear"></div>
 </div>

@@ -1,27 +1,9 @@
 # Profile
-Idea to build my Profile project to learn Angular 
-The Profile App covers the core fundamentals of Angular. I’ve build basic app that has very minimal features that can help and setup Profile App (like Introduction, About, Skills, Work, Lab and Contact) Also, Profile App deploy it static GitHub Pages
-
-Demo - https://umar-abdulabbas.github.io/profile/intro
-
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) 
 
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Demo - https://umar-abdulabbas.github.io/feten-fiesta/intro
 
-## Code scaffolding
+<h1>Fete n’  Fiesta 2018</h1>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Deploying to GitHub Pages
-
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
