@@ -26,6 +26,6 @@ export class WorksComponent implements OnInit {
   
   nextComponent(){
    
-    this.router.navigateByUrl('/lab');
+    this.router.navigateByUrl('/gallery');
   }
 }

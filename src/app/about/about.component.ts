@@ -28,7 +28,7 @@ show:boolean = true;
     }
   nextComponent(){
     
-    this.router.navigateByUrl('/skills');
+    this.router.navigateByUrl('/eventloaction');
   }
    
 }

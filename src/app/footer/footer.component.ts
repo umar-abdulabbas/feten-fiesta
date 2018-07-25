@@ -11,7 +11,7 @@ export class FooterComponent implements OnInit {
  
   idx=1;
   
-  footertxt = 'Powered by Angular';
+  footertxt = 'KLM/SKY TEAM Event 2018';
 
   constructor( private router:Router) { }
 

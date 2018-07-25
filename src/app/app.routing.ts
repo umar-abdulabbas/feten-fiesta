@@ -13,10 +13,10 @@ import { CarouselComponent} from './carousel/carousel.component';
 const MAINMENU_ROUTES: Routes = [
     {path:'', redirectTo:'/intro',pathMatch:'full'},
     {path:'intro', component:IntroComponent},
-    {path:'about', component:AboutComponent},
-    {path:'skills',component:SkillsComponent},
-    {path:'works',component:WorksComponent},
-    {path:'lab', component:LabComponent},
+    {path:'event', component:AboutComponent},
+    {path:'eventloaction',component:SkillsComponent},
+    {path:'games',component:WorksComponent},
+    {path:'gallery', component:LabComponent},
     {path:'contact',component:ContactComponent},
     {path:'carousel',component:CarouselComponent}
 ];

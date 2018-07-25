@@ -24,6 +24,6 @@ export class SkillsComponent implements OnInit {
  
   nextComponent(){
     
-    this.router.navigateByUrl('/works');
+    this.router.navigateByUrl('/games');
   }
 }

@@ -35,7 +35,7 @@ export class IntroComponent implements OnInit  {
   }
   
   nextComponent(){
-    this.router.navigateByUrl('/about');
+    this.router.navigateByUrl('/event');
   }
   
   

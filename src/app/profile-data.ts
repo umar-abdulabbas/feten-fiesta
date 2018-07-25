@@ -7,7 +7,7 @@ export const YOUTUBES: Youtube[] = [
 ]
 
 export const BACKGROUNDS: Background[] = [
-         { "background": "./assets/images/laptop_code.jpg", "fontColor": "#ccc" },
+         { "background": "./assets/images/fetenfiesta.png", "fontColor": "#ccc" },
          
         
 ]

@@ -1,8 +1,14 @@
  .introLayout{
-  border-top:5px solid #29afe2; background: rgba(54, 25, 25, .5); height:100vh; position: fixed;
+  border-top:5px solid #29afe2; xbackground: rgba(54, 25, 25, .5); height:100vh; position: fixed;
   animation-duration: 1s;
   animation-fill-mode: both;
   width:100%;   
+  }
+  .text-color{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 10em;
+    color: #f0c93e;
+    font-weight: bold;
   }
 .introLayout.open{ animation: fadeInUp .5s ease; }
 .introLayout.close{ animation: fadeInUp .5s ease; }
@@ -116,5 +122,11 @@ from {
 
   .name-txt-center div img{ width:120px; margin-top:80px;} 
    .arrowbtn{  left:40%;}
+   .text-color{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 2em;
+    color: #f0c93e;
+    font-weight: bold;
+  }
    
 }
