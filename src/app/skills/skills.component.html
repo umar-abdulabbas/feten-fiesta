@@ -1,14 +1,41 @@
 <div  [ngClass]="{'skillsLayout':'true', 'open':'true'}" >
   <h1 class="skillsHeader">Event Loaction "</h1>
-  <div style="color:#000; text-align:center; font-size:2em">How to Reach there -  <a href="https://goo.gl/maps/RbTxmvM1uRQ2" target="_blank">https://goo.gl/maps/RbTxmvM1uRQ2</a></div>
+  
   <div>&nbsp;</div>
-  <div style="margin:0 auto; width:865px;">
-      <img src="./assets/images/loaction.png"/>
-  </div>
+  <div >
+  <div class="table">
+		<table id="customers">
+			<tr>
+				<th>Location Finder</th>
+				<th>Link</th>
+				
+            </tr>
+            <tr>
+                <td>Google Map</td>
+                <td><a href="https://goo.gl/maps/RbTxmvM1uRQ2" target="_blank">https://goo.gl/maps/RbTxmvM1uRQ2</a></td>
+                
+            </tr>
+            <tr>
+                    <td>Latitude and Longitude coordinates</td>
+                    <td>52.323583, 4.851583</td>
+                    
+            </tr>
+            <tr>
+                    <td>Scan QR Code</td>
+                    <td><img src="./assets/images/qr-code.png" width="100"/></td>
+                    
+            </tr>
+            </table>
+           
+    </div>
+</div>
+    <div>&nbsp;</div>
+ <div style="text-align:center">
+     <img src="./assets/images/location.png" height="400px"/>
+ </div>
  <div class="clear"></div>
   <div class="divSpace">&nbsp;</div>
-  
-		<div style="text-align:center; color:#000; font-weight:bold">Go to Fete n' Fiesta Championship</div>
+	<div style="text-align:center; color:#000; font-weight:bold">Go to Fete n' Fiesta Championship</div>
    <div class="arrowbtn animated slideInUp" (click)="nextComponent()"><span class="fa fa-angle-double-down"></span></div>	
    <div class="divSpace">&nbsp;</div>
 </div>

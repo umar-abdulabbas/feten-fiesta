@@ -11,7 +11,7 @@ export class FooterComponent implements OnInit {
  
   idx=1;
   
-  footertxt = 'KLM/SKY TEAM Event 2018';
+  footertxt = 'Fete n Fiesta Team';
 
   constructor( private router:Router) { }
 
